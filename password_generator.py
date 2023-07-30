@@ -24,5 +24,5 @@ def generate_password(min_length, numbers, special_characters):
 print("Welcome to the Password Generator\nBefore generating your password, we would like to ask you a couple of questions")
 size= int(input("What size password would you like?"))
 numbers= input("Yes or No, would you like Numbers in your password?").lower() =='yes'
-characters= input("Yes or No, would you like Special Charddddddddddddddacters (Ex: $#%^&*@) in your password?").lower() =='yes'
+characters= input("Yes or No, would you like Special Characters (Ex: $#%^&*@) in your password?").lower() =='yes'
 print("Here is your new passowrd: "+ generate_password(size, numbers, characters))
